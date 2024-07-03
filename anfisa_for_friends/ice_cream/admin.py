@@ -23,7 +23,8 @@ class IceCreamAdmin(admin.ModelAdmin):
         'wrapper',
         'category',
         'is_on_main',
-        'is_published'
+        'is_published',
+        'output_order'
     )
     list_editable = (
         'category',
